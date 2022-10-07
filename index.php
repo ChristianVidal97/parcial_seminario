@@ -25,6 +25,8 @@
 		}
 	</style>
 
+
+
 </head>
 
 <body>	
@@ -39,25 +41,53 @@
 							<ul class="list-group list-group-light" align="center">
 								
 								<li class="list-group-item">
-									<div for="txt_id"><b>Id:</b>
-										<input type="number" name="txt_id" id="txt_id"min= "1" max="1000000000">
+									<div for="txt_id"><b>Codigo animal:</b>
+										<input type="number" name="txt_coda" id="txt_coda"min= "1" max="1000000000">
 									</div>
 								</li>
 
 								<li class="list-group-item">	
-									<div for="txt_nombre"><b>Nombre:</b>
+									<div for="txt_nombre"><b>Nombre animal:</b>
 										<input  type="text" name="txt_nombre" id="txt_nombre" >
 									</div>
 								</li>
 
 								<li class="list-group-item">
-									<div for="txt_precio"><b>Precio:</b>
-										<input type="number" name="txt_precio" id="txt_precio"min= "1" max="1000000000">
+									<div for="txt_especie"><b>Especie:</b>
+										<input type="text" name="txt_especie" id="txt_especie"min= "1" max="1000000000">
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div for="txt_sexo"><b>sexo:</b>
+										<input type="text" name="txt_sexo" id="txt_sexo"min= "1" max="1000000000">
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div for="txt_comida"><b>comida:</b>
+										<input type="text" name="txt_comida" id="txt_comida"min= "1" max="1000000000">
 									</div>
 								</li>
 
 								<li class="list-group-item">
-									<button type="button" class="btn btn-warning" onclick="opcion1()">OPCION 1</button>
+									<div for="txt_"><b>jaula:</b>
+										<input type="number" name="txt_jaula" id="txt_jaula"min= "1" max="1000000000">
+									</div>
+								</li>
+
+								<li class="list-group-item">
+									<div for="txt_vete"><b>veterinario:</b>
+										<input type="number" name="txt_vete" id="txt_vete"min= "1" max="1000000000">
+									</div>
+								</li>
+
+								<li class="list-group-item">
+									<div for="txt_canta"><b>cantidad:</b>
+										<input type="number" name="txt_canta" id="txt_canta"min= "1" max="1000000000">
+									</div>
+								</li>
+
+								<li class="list-group-item">					
+									<button type="button" class="btn btn-primary" onclick="abrir('datos.php')">OPCION 1</button>
 									<button type="button" class="btn btn-warning" onclick="opcion2()">OPCION 2</button>
 									<button type="button" class="btn btn-warning" onclick="opcion3()">OPCION 3</button>
 								</li>
@@ -69,6 +99,9 @@
 		</div>
 
 	</div>	<!--fin contenedor principal-->
+
+
+
 	<script type="text/javascript" src="js/functions.js"></script>
 </body>
 </html>
